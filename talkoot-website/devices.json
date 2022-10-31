@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Sauna",
+    "power": 5,
+    "timesPerWeek": 1,
+    "hoursPerUse": 3,
+    "infoText": "Saunassa on mukava lämmitellä jos varat riittää",
+    "icon": "sauna",
+    "allowedHours": [7, 23]
+  },
+  {
+    "name": "Lämminvesivaraaja",
+    "power": 3,
+    "timesPerWeek": 7,
+    "hoursPerUse": 2,
+    "infoText": "Lämminvesivaraaja lämmittää vettä",
+    "icon": "waterboiler",
+    "splitHours": true
+  },
+  {
+    "name": "Tiskikone",
+    "power": 99,
+    "timesPerWeek": 99,
+    "hoursPerUse": 1,
+    "infoText": "",
+    "icon": "dishwasher"
+  },
+  {
+    "name": "Pesukone",
+    "power": 99,
+    "timesPerWeek": 99,
+    "hoursPerUse": 2,
+    "infoText": "",
+    "icon": "washingmachine"
+  },
+  {
+    "name": "Sähköauto",
+    "power": 99,
+    "timesPerWeek": 99,
+    "hoursPerUse": 5,
+    "infoText": "",
+    "icon": "ecar",
+    "splitHours": true
+  }
+]

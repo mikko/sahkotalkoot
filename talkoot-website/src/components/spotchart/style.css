@@ -1,0 +1,40 @@
+.chart {
+    min-height: 250px;
+}
+
+.priceBar {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 20px;
+}
+
+.barContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.time {
+    font-size: 10px;
+}
+
+.price {
+    height: 200px;
+    position: relative;
+}
+
+.bar {
+    fill: #d45328;
+    margin-top: auto;
+    border-radius: 5px;
+}
+
+.cheapBar {
+    fill: #06f88b;
+}
+
+.selectedBar {
+    stroke: black;
+    stroke-width: 2px;
+}
